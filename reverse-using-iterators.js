@@ -2,9 +2,11 @@
 
 const reverse = (s) => {
   const reverseArray = [];
+  // Iterating over the string in a loop and pushing the results to an array.
   for (let i = s.length - 1; i >= 0; i -= 1) {
     reverseArray.push(s.charAt(i));
   }
+  // Returning a string created by joining the elements of the array.
   return reverseArray.join('');
 };
 
